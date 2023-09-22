@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/website": {
+      "name": "/website",
+      "lambdaFunction": "commonApi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

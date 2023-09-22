@@ -1,0 +1,10 @@
+{
+  "resourceName": "itorchard",
+  "tableName": "companies",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

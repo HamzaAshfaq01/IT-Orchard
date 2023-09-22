@@ -1,0 +1,14 @@
+{
+  "resourceName": "itorchards3storage",
+  "policyUUID": "bd228e1b",
+  "bucketName": "itorchardmainstorage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

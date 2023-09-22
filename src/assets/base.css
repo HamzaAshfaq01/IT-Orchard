@@ -1,0 +1,39 @@
+
+:root {
+  --vt-background: #00AB55;
+  --vt-text:#212B36;
+  --vt-text-grey:#637381;
+  --vt-accenet:#FFAB00;
+  --vt-basegrey:#F4F6F8;
+  --vt-green-2:#BFE1D0;
+  --vt-green-3:#E9F0ED;
+  --vt-placeholder:#BBBCBE;
+  --vt-white:#ffffff;
+
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-background);
+  --color-text: var(--vt-text);
+  --color-text-grey: var(--vt-text-grey);
+  --color-accenet: var(--vt-accenet);
+  --color-basegrey: var(--vt-basegrey);
+  --color-green2: var(--vt-green-2);
+  --color-green3: var(--vt-green-3);
+  --color-placeholder: var(--vt-placeholder);
+  --color-white: var(--vt-white);
+
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Public Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}

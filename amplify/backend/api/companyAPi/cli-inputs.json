@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/company": {
+      "name": "/company",
+      "lambdaFunction": "companyHandler",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

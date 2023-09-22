@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/blogs": {
+      "name": "/blogs",
+      "lambdaFunction": "blogHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
